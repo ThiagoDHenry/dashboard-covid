@@ -1,0 +1,56 @@
+:host ::ng-deep
+.estado {
+  background-color: #272727;
+  color: #ecf0f1;
+  text-align: center;
+  border-radius: 20px;
+  padding: 5px;
+}
+
+.text-estado {
+  font-size: 25px;
+  color: #ffff;
+}
+
+:host ::ng-deep
+.casos {
+  background-color: #42DEE1;
+  color: #ecf0f1;
+  text-align: center;
+  border-radius: 20px;
+  padding: 5px;
+}
+
+:host ::ng-deep
+.mortes {
+  background-color: #FF7676;
+  color: #ecf0f1;
+  text-align: center;
+  border-radius: 20px;
+  padding: 5px;
+}
+
+:host ::ng-deep
+.suspeitos {
+  background-color: #A760FF;
+  color: #ecf0f1;
+  text-align: center;
+  border-radius: 20px;
+  padding: 5px;
+}
+
+:host ::ng-deep
+.recuperados {
+  background-color: #809A6F;
+  color: #ecf0f1;
+  text-align: center;
+  border-radius: 20px;
+  padding: 5px;
+}
+
+.text {
+  color: #ffff;
+  font-size: 22px;
+}
+
+

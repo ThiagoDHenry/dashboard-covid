@@ -1,0 +1,33 @@
+<div class="col-6 w-full">
+  <p-card styleClass="estado">
+    <h4 class="text">Estado</h4>
+    <p class="text-estado ">{{ dados && dados.state }}</p>
+  </p-card>
+</div>
+
+<div class="grid">
+  <div class="col-12 md:col-6 lg:col-6">
+    <p-card styleClass="casos">
+      <h4 class="text">Casos</h4>
+      <p class="text">{{ dados && dados.cases }}</p>
+    </p-card>
+  </div>
+  <div class="col-12 md:col-6 lg:col-6">
+    <p-card styleClass="mortes">
+      <h4 class="text">Mortes</h4>
+      <p class="text">{{ dados && dados.deaths }}</p>
+    </p-card>
+  </div>
+  <div class="col-12 md:col-6 lg:col-6">
+    <p-card styleClass="suspeitos">
+      <h4 class="text">Suspeitos</h4>
+      <p class="text">{{ dados && dados.suspects }}</p>
+    </p-card>
+  </div>
+  <div class="col-12 md:col-6 lg:col-6">
+    <p-card styleClass="recuperados">
+      <h4 class="text">Recuperados</h4>
+      <p class="text">{{ dados && dados.refuses }}</p>
+    </p-card>
+  </div>
+</div>
